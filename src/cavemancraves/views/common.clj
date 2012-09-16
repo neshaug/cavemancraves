@@ -14,11 +14,17 @@
         [:li.ative
          [:a {"href" "#"} "Home"]]]]]]])
 
+(defn metatags []
+  (list [:meta {"charset" "utf-8"}]
+        [:meta {"name" "viewport" "content" "width=device-width, inital-scale=1.0"}]
+        [:meta {"name" "description" "content" "caveman craves web site"}]
+        [:meta {"author" "frozenbee"}]))
+
 (defpartial layout [& content]
   (html5
    [:head
     [:title "Caveman Craves!"]
-    [:meta {"name" "viewport"}]
+    (metatags)
     (include-css "css/bootstrap.css")
     (include-css "css/bootstrap-responsive.css")]
    [:body
