@@ -9,5 +9,34 @@
 
 (defpage "/" []
   (common/layout
-   [:h1 "Welcome to my site!"]
-   [:p "Hope you like it."]))
+   (list 
+    [:div.hero-unit
+     [:h1 "Caveman craves!"]
+     [:p "Buy awesome cookies right this moment pretty please!"]
+     [:p
+      [:a.btn.btn-primary.btn-large "Learn more &raquo;"]]]
+    [:div.row
+     [:div.span4
+      [:h2 "Cookie 1"]
+      [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+       tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+       fermentum massa justo sit amet risus. Etiam porta sem malesuada 
+       magna mollis euismod. Donec sed odio dui."]
+      [:p
+       [:a.btn {"href" "#"} "View details &raquo;"]]]
+     [:div.span4
+      [:h2 "Cookie 2"]
+      [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+       tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+       fermentum massa justo sit amet risus. Etiam porta sem malesuada 
+       magna mollis euismod. Donec sed odio dui."]
+      [:p
+       [:a.btn {"href" "#"} "View details &raquo;"]]]
+     [:div.span4
+      [:h2 "Cookie 3"]
+      [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+       tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+       fermentum massa justo sit amet risus. Etiam porta sem malesuada 
+       magna mollis euismod. Donec sed odio dui."]
+      [:p
+       [:a.btn {"href" "#"} "View details &raquo;"]]]])))
