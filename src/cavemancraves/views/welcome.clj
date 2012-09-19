@@ -23,7 +23,8 @@
        fermentum massa justo sit amet risus. Etiam porta sem malesuada 
        magna mollis euismod. Donec sed odio dui."]
       [:p
-       [:a.btn {"href" "#"} "View details &raquo;"]]]
+       [:a.btn {"href" "#"} "PayPal"]
+       [:a.btn {"href" "#"} "Google Checkout"]]]
      [:div.span4
       [:h2 "Cookie 2"]
       [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -31,7 +32,8 @@
        fermentum massa justo sit amet risus. Etiam porta sem malesuada 
        magna mollis euismod. Donec sed odio dui."]
       [:p
-       [:a.btn {"href" "#"} "View details &raquo;"]]]
+       [:a.btn {"href" "#"} "PayPal"]
+       [:a.btn {"href" "#"} "Google Checkout"]]]
      [:div.span4
       [:h2 "Cookie 3"]
       [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -39,4 +41,5 @@
        fermentum massa justo sit amet risus. Etiam porta sem malesuada 
        magna mollis euismod. Donec sed odio dui."]
       [:p
-       [:a.btn {"href" "#"} "View details &raquo;"]]]])))
+       [:a.btn {"href" "#"} "PayPal"]
+       [:a.btn {"href" "#"} "Google Checkout"]]]])))
