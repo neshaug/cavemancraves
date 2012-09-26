@@ -11,8 +11,12 @@
   (common/layout
    (list 
     [:div.hero-unit
-     [:h1 "Caveman craves!"]
-     [:p "Buy awesome cookies right this moment pretty please!"]
+     [:p
+      [:img {:src "img/cavemancraves-brown-logo.jpeg" :alt "Caveman Craves
+             logo"}]
+      [:h1 "Caveman Craves"]
+      "Bake to ORDER foodie treats for the modern caveman/woman.. A 
+      little something naughty that's still full of goodness."]
      [:p
       [:a.btn.btn-primary.btn-large "Learn more &raquo;"]]]
     [:div.row
