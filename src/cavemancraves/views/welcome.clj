@@ -15,10 +15,58 @@
       [:img {:src "img/cavemancraves-brown-logo.jpeg" :alt "Caveman Craves
              logo"}]
       [:h1 "Caveman Craves"]
-      "Bake to ORDER foodie treats for the modern caveman/woman.. A 
-      little something naughty that's still full of goodness."]
+      "On a misson to supply fellow followers of a healthy lifestyle with 
+      foodie treats, that are not only tasty but full of goodness too."]
      [:p
       [:a.btn.btn-primary.btn-large "Learn more &raquo;"]]]
+    [:div.row
+     [:div.span12
+      [:h2 "What me make"]
+       [:div.row
+        [:div.span4
+       	 [:p "Here at Caveman Craves we bake a variety of different tasty 
+          treats.  From  COOKIES-CAKES-MUFFINS-BREADS-SNACK BARS... We 
+          provide everyday snacks for the modern caveman/woman, those who 
+          like to eat healthily, people with allergies and those who just 
+          want to try something a little different.. We also bake treats 
+          for special occasions. BIRTHDAYS, PRIZES, LIFE EVENTS AND 
+          CELEBRATIONS"]]
+        [:div.span4
+       	 [:p "Each item is baked to order, so we can match your specific 
+          needs. There is nothing generic about our products. 
+          Cookies/Muffins/Breads are free to rise with no restrictions.
+          This means that they come out looking rustic, no perfectly round 
+          cookies, no smooth edged bread- but this is good. We like 
+          rustic. "]]
+        [:div.span4
+       	 [:p "NO WHEAT/GRAINS, NO DAIRY, NO GLUTEN, NO SUGAR only natural 
+          ones that the caveman could gather from trees and the homes of 
+          bees. We aim to keep our ingredients as natural and flavoursome 
+          as possible, using no artificial preservatives, flavours or 
+          colourings. We also care about our impact on the environment so 
+          aim to use bio-degradable/recyclable materials."]]]
+      [:ul.thumbnails
+       [:li.span3
+        [:div.thumbnail
+         [:img {:src 
+                "img/almond-olive-flax-loaf.jpg" 
+                :alt "Almond, olive oil and flax loaf"}]
+         [:p "Almond, olive oil and flax loaf"]]]
+       [:li.span3
+        [:div.thumbnail
+         [:img {:src "img/selection-box.jpg" 
+                :alt "Selection box"}]
+         [:p "Selection Box of Hazelnut & Choc Cookies"]]]
+       [:li.span3
+        [:div.thumbnail
+         [:img {:src"img/cocunut-cranberry-seed-bread.jpg" 
+                :alt "Coconut, cranberry and seed bread"}]
+         [:p "Cocunut, cranberry and seed bread"]]]
+       [:li.span3
+        [:div.thumbnail
+         [:img {:src "img/hazelnut-cocoa-choc-cip.jpg"
+                :alt "Hazelnut and cocoa choc cip"}]
+         [:p "Hazelnut and 80% cocoa choc cip"]]]]]]
     [:div.row
      [:div.span4
       [:h2 "Cookie 1"]
