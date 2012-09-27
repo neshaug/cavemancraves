@@ -17,9 +17,11 @@
         [:li.active
          [:a {"href" "#"} "Home"]]
         [:li
-         [:a {"href" "#about"} "About"]]
+         [:a {"href" "#whatwemake"} "What we make"]]
         [:li
-         [:a {"href" "#contact"} "Contact"]]]]]]])
+         [:a {"href" "#huntusdown"} "Hunt us down"]]
+        [:li
+         [:a {"href" "#funstuff"} "Fun stuff"]]]]]]])
 
 (defn metatags []
   (list [:meta {"charset" "utf-8"}]
