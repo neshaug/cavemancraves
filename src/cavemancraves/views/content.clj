@@ -17,7 +17,7 @@
 
 (defn what-we-make
   []
-  [:div.row
+  [:div.row {:id "whatwemake"}
    [:div.span12
     [:h2 "What me make"]
     [:div.row
