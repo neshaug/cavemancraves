@@ -22,6 +22,7 @@
     [:h2 "What me make"]
     [:div.row
      [:div.span4
+      [:h3 "Tasty treats"]
       [:p "Here at Caveman Craves we bake a variety of different tasty 
        treats.  From cookies, cakes, muffins, breads to snack bars. We 
        provide everyday snacks for the modern caveman/woman, those who 
@@ -30,6 +31,7 @@
        for special occasions like birtdays, prizes, life events and 
        celebrations"]]
      [:div.span4
+      [:h3 "Real home made"]
       [:p "Each item is baked to order, so we can match your specific 
        needs. There is nothing generic about our products. 
        Cookies/Muffins/Breads are free to rise with no restrictions.
@@ -37,7 +39,8 @@
        cookies, no smooth edged bread- but this is good. We like 
        rustic. "]]
      [:div.span4
-      [:p "NO WHEAT/GRAINS, NO DAIRY, NO GLUTEN, NO SUGAR only natural 
+      [:h3 "Healthy ingredients"]
+      [:p "No wheat/grains, no dairy, no gluten, no sugar, only natural 
        ones that the caveman could gather from trees and the homes of 
        bees. We aim to keep our ingredients as natural and flavoursome 
        as possible, using no artificial preservatives, flavours or 
