@@ -19,7 +19,7 @@
   []
   [:div.row {:id "whatwemake"}
    [:div.span12
-    [:h2 "What me make"]
+    [:h2 "What we make"]
     [:div.row
      [:div.span4
       [:h3 "Tasty treats"]
