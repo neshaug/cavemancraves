@@ -21,6 +21,8 @@
         [:li
          [:a {"href" "#huntusdown"} "Hunt us down"]]
         [:li
+         [:a {"href" "#aboutus"} "About us"]]
+        [:li
          [:a {"href" "#funstuff"} "Fun stuff"]]]]]]])
 
 (defn metatags []

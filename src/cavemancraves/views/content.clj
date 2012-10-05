@@ -27,7 +27,7 @@
        treats.  From cookies, cakes, muffins, breads to snack bars. We 
        provide everyday snacks for the modern caveman/woman, those who 
        like to eat healthily, people with allergies and those who just 
-       want to try something a little different.. We also bake treats 
+       want to try something a little different. We also bake treats 
        for special occasions like birtdays, prizes, life events and 
        celebrations"]]
      [:div.span4
@@ -69,6 +69,39 @@
               :alt "Hazelnut and cocoa choc cip"}]
        [:p "Hazelnut and 80% cocoa choc cip"]]]]]])
 
+(defn hunt-us-down
+  []
+  [:div.row {:id "huntusdown"}
+   [:div.span12
+    [:h1 "Hunt us down"]
+    [:p "If you would like to contact us for more info on products or you 
+     have specific requests for orders, please send an email to fern at 
+     cavemancraves.com with your request//questions."]
+    [:p "Join our pack for discussions, updates on new products, 
+     competitions and more on Facebook: Caveman Craves & Twitter"]]])
+
+(defn about-us
+  []
+  [:div.row {:id "aboutus"}
+   [:div.span12
+    [:h1 "About us"]
+    [:p "Our founder Fern Carver found The Paleo way of eating through her 
+     Crossfit training and having followed it for a while, she found that 
+     there was not any suitable treats out there on the market, that tick 
+     all the boxes and are Paleo friendly."]
+    [:p "Yes you can buy FREE FROM products , but none really grabbed her 
+     attention or had much substance to them apart from copious amounts of
+     sugar. Being someone who loves a treat, but not wanting to overload
+     her system with sugars and all the things she has worked hard to
+     resist, she thought it was time for something new."]
+    [:p "Playing around with recipes in her own kitchen, she found that in 
+     fact it is possible to make delicious tasting and filling treats, 
+     while keeping them \"Paleo friendly\", so instead of eating them all 
+     to herself , she thought it was time to share it with you!"]]])
+
+(defn fun-stuff
+  [])
+
 (defn dummy
   []
   [:div.row
@@ -103,6 +136,7 @@
 (defpage "/" []
   (common/layout
    (list 
-	(hero-unit)
-	(what-we-make)
-    (dummy))))
+    (hero-unit)
+    (what-we-make)
+    (hunt-us-down)
+    (about-us))))
