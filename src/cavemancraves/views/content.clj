@@ -28,7 +28,7 @@
        provide everyday snacks for the modern caveman/woman, those who 
        like to eat healthily, people with allergies and those who just 
        want to try something a little different. We also bake treats 
-       for special occasions like birtdays, prizes, life events and 
+       for special occasions like birthdays, prizes, life events and 
        celebrations"]]
      [:div.span4
       [:h3 "Real home made"]
@@ -62,12 +62,12 @@
       [:div.thumbnail
        [:img {:src"img/cocunut-cranberry-seed-bread.jpg" 
               :alt "Coconut, cranberry and seed bread"}]
-       [:p "Cocunut, cranberry and seed bread"]]]
+       [:p "Coconut, cranberry and seed bread"]]]
      [:li.span3
       [:div.thumbnail
        [:img {:src "img/hazelnut-cocoa-choc-cip.jpg"
               :alt "Hazelnut and cocoa choc cip"}]
-       [:p "Hazelnut and 80% cocoa choc cip"]]]]]])
+       [:p "Hazelnut and 80% cocoa choc chip"]]]]]])
 
 (defn hunt-us-down
   []
