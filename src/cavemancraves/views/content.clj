@@ -13,7 +13,15 @@
     "On a misson to supply fellow followers of a healthy lifestyle with 
     foodie treats, that are not only tasty but full of goodness too."]
    [:p
-    [:a.btn.btn-primary.btn-large "Learn more &raquo;"]]])
+    [:a.btn.btn-primary.btn-large
+     {:href "http://www.twitter.com/cavemancraves"}
+     [:i.icon-twitter]
+     " Twitter"]
+    [:a.btn.btn-primary.btn-large 
+     {:style "margin-left:0.5em"
+      :href "http://www.facebook.com/cavemancraves"} 
+     [:i.icon-facebook]
+     " Facebook"]]])
 
 (defn what-we-make
   []
