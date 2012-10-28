@@ -76,7 +76,7 @@
     [:h1 "Hunt us down"]
     [:p "If you would like to contact us for more info on products or you 
      have specific requests for orders, please send an email to fern at 
-     cavemancraves.com with your request//questions."]
+     cavemancraves.com with your request/questions."]
     [:p "Join our pack for discussions, updates on new products, 
      competitions and more on Facebook: Caveman Craves & Twitter"]]])
 
@@ -97,7 +97,7 @@
     [:p "Playing around with recipes in her own kitchen, she found that in 
      fact it is possible to make delicious tasting and filling treats, 
      while keeping them \"Paleo friendly\", so instead of eating them all 
-     to herself , she thought it was time to share it with you!"]]])
+     to herself, she thought it was time to share it with you!"]]])
 
 (defn fun-stuff
   [])
