@@ -33,8 +33,9 @@
   (list
    (include-css "css/bootstrap.css")
    (include-css "css/cavemancraves.css")
-   [:style "body { padding-top: 60px; padding-bottom: 40px; }"]
-   (include-css "css/bootstrap-responsive.css")))
+   (include-css "css/bootstrap-responsive.css")
+   (include-css "css/font-awesome.css")
+   [:style "body { padding-top: 60px; padding-bottom: 40px; }"]))
 
 (defpartial layout [& content]
   (html5
