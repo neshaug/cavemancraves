@@ -110,37 +110,6 @@
 (defn fun-stuff
   [])
 
-(defn dummy
-  []
-  [:div.row
-   [:div.span4
-    [:h2 "Cookie 1"]
-    [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-     tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-     fermentum massa justo sit amet risus. Etiam porta sem malesuada 
-     magna mollis euismod. Donec sed odio dui."]
-    [:p
-     [:a.btn {"href" "#"} "PayPal"]
-     [:a.btn {"href" "#"} "Google Checkout"]]]
-   [:div.span4
-    [:h2 "Cookie 2"]
-    [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-     tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-     fermentum massa justo sit amet risus. Etiam porta sem malesuada 
-     magna mollis euismod. Donec sed odio dui."]
-    [:p
-     [:a.btn {"href" "#"} "PayPal"]
-     [:a.btn {"href" "#"} "Google Checkout"]]]
-   [:div.span4
-    [:h2 "Cookie 3"]
-    [:p "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-     tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-     fermentum massa justo sit amet risus. Etiam porta sem malesuada 
-     magna mollis euismod. Donec sed odio dui."]
-    [:p
-     [:a.btn {"href" "#"} "PayPal"]
-     [:a.btn {"href" "#"} "Google Checkout"]]]])
-
 (defpage "/" []
   (common/layout
    (list 
