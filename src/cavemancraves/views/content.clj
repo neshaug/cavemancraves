@@ -6,13 +6,12 @@
 (defn hero-unit
   []
   [:div.hero-unit
-   [:p
-    [:img {:src "img/cavemancraves-brown-logo.jpeg" :alt "Caveman Craves
-           logo"}]
+   [:div
+    [:img {:src "img/cavemancraves-brown-logo.jpeg" :alt "Caveman Craves logo"}]
     [:h1 "Caveman Craves"]
     "On a misson to supply fellow followers of a healthy lifestyle with 
     foodie treats, that are not only tasty but full of goodness too."]
-   [:p
+   [:div
     [:a.btn.btn-primary.btn-large
      {:href "http://www.twitter.com/cavemancraves"}
      [:i.icon-twitter]
