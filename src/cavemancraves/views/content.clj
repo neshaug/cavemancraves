@@ -11,7 +11,7 @@
     [:h1 "Caveman Craves"]
     "On a misson to supply fellow followers of a healthy lifestyle with 
     foodie treats, that are not only tasty but full of goodness too."]
-   [:div
+   [:div {:style "margin-top:0.5em"}
     [:a.btn.btn-primary.btn-large
      {:href "http://www.twitter.com/cavemancraves"}
      [:i.icon-twitter]
