@@ -87,6 +87,16 @@
     [:p "Join our pack for discussions, updates on new products, 
      competitions and more on Facebook: Caveman Craves & Twitter"]]])
 
+(defn paleo-in-a-box
+  []
+  [:div.row
+   [:div.span3]
+   [:div.span6
+    [:a {:href "http://tinyurl.com/bsoccyl"}
+     [:img {:src "http://www.paleodietinabox.com/wp-content/uploads/2012/06/Simon-L-3-banner-sets_kk_728-x-90_Paleo-in-A-box_2.gif"
+           :alt "" :height "90px" :width "728px"}]]]
+   [:div.span3]])
+
 (defn about-us
   []
   [:div.row {:id "aboutus"}
@@ -115,4 +125,5 @@
     (hero-unit)
     (what-we-make)
     (hunt-us-down)
+    (paleo-in-a-box)
     (about-us))))
