@@ -42,6 +42,7 @@
    [:head
     (metatags)
     [:title "Caveman Craves!"]
+    [:link {:rel "shortcut icon" :href "favicon.ico"}]
     (css)]
    [:body
     (navbar)
